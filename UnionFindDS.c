@@ -44,11 +44,7 @@ void unionSet(UnionFindDS * ds, Node * nodeX, Node * nodeY){
 
 
 	removeSet(ds, nodeY);
-	//removeSet(ds, nodeX);
 
-     // LinkedList * list = malloc(sizeof(LinkedList)); 
-    // *list = (LinkedList){.head = NULL, .tail = NULL, .size = 0};
-	//add nodeY into nodeX;
 
 	if(nodeX->head->head->next == NULL){ //ie if there is only one element in the set of NodeX
 		//add nodeY into nodeX from nodeX head
